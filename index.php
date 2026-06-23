@@ -5,29 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRIB — Find Verified Homes You Can Trust</title>
 
-    <!-- Bootstrap 5 -->
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons -->
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-    <!-- Google Fonts: Inter -->
+    
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- CRIB Styles -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
-<!-- ============================================================
-     NAVBAR
-     ============================================================ -->
+
 <nav class="navbar navbar-expand-lg">
     <div class="container">
 
-        <!-- Logo -->
+        
         <a class="navbar-brand" href="index.php">
             CRIB<span>.</span>
         </a>
 
-        <!-- Mobile Toggle -->
+        
         <button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navMenu"
@@ -37,7 +35,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Nav Links -->
+        
         <div class="collapse navbar-collapse" id="navMenu">
 
             <ul class="navbar-nav mx-auto">
@@ -45,7 +43,7 @@
                     <a class="nav-link active" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="property-listings.php">Properties</a>
+                    <a class="nav-link" href="pages\property-listings.php">Properties</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">About Us</a>
@@ -67,14 +65,12 @@
     </div>
 </nav>
 
-<!-- ============================================================
-     HERO SECTION
-     ============================================================ -->
+
 <section class="hero-section">
     <div class="container">
         <div class="row align-items-center g-5">
 
-            <!-- Left: Text + Search -->
+            
             <div class="col-lg-6">
 
                 <div class="hero-text">
@@ -82,13 +78,12 @@
                     <p>Browse verified listings, compare properties and make informed housing decisions with confidence.</p>
                 </div>
 
-                <!-- Search Box -->
+                
                 <div class="search-box">
-                    <form action="property-listings.php" method="GET">
+                    <form action="pages\property-listings.php" method="GET">
 
                         <div class="row g-3">
 
-                            <!-- Location -->
                             <div class="col-md-6">
                                 <label class="form-label">Location</label>
                                 <input
@@ -99,7 +94,7 @@
                                 >
                             </div>
 
-                            <!-- Property Type -->
+                            
                             <div class="col-md-6">
                                 <label class="form-label">Property Type</label>
                                 <select name="type" class="form-select">
@@ -112,7 +107,7 @@
                                 </select>
                             </div>
 
-                            <!-- Min Price -->
+                            
                             <div class="col-md-6">
                                 <label class="form-label">Min Price (KES)</label>
                                 <input
@@ -124,7 +119,7 @@
                                 >
                             </div>
 
-                            <!-- Max Price -->
+                            
                             <div class="col-md-6">
                                 <label class="form-label">Max Price (KES)</label>
                                 <input
@@ -144,12 +139,11 @@
 
                     </form>
                 </div>
-                <!-- /Search Box -->
+                
 
             </div>
-            <!-- /Left -->
+            
 
-            <!-- Right: Hero Image -->
             <div class="col-lg-6">
                 <div class="hero-image-wrap">
                     <img
@@ -159,29 +153,27 @@
                     >
                 </div>
             </div>
-            <!-- /Right -->
+            
 
         </div>
     </div>
 </section>
-<!-- /HERO -->
 
-<!-- ============================================================
-     FEATURED PROPERTIES
-     ============================================================ -->
+
+<!--FEATURED PROPERTIES -->
 <section class="featured-section">
     <div class="container">
 
-        <!-- Section Header -->
+        
         <div class="section-header">
             <h2 class="section-title">Featured Properties</h2>
-            <a href="property-listings.php" class="btn-view-all">View All Properties</a>
+            <a href="pages\property-listings.php" class="btn-view-all">View All Properties</a>
         </div>
 
-        <!-- Property Cards Grid -->
+        
         <div class="row g-4">
 
-            <!-- Card 1 -->
+            
             <div class="col-md-6 col-lg-3">
                 <div class="property-card">
                     <img
@@ -201,7 +193,7 @@
                             <div class="property-price">
                                 KES 25,000 <span>/mo</span>
                             </div>
-                            <a href="#" class="btn-view-details">View Details</a>
+                            <a href="pages\property-details.php" class="btn btn-outline-dark">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -227,7 +219,7 @@
                             <div class="property-price">
                                 KES 65,000 <span>/mo</span>
                             </div>
-                            <a href="#" class="btn-view-details">View Details</a>
+                            <a href="pages\property-details.php" class="btn btn-outline-dark">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -253,7 +245,7 @@
                             <div class="property-price">
                                 KES 18,000 <span>/mo</span>
                             </div>
-                            <a href="#" class="btn-view-details">View Details</a>
+                            <a href="pages\property-details.php" class="btn btn-outline-dark">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -279,7 +271,7 @@
                             <div class="property-price">
                                 KES 120,000 <span>/mo</span>
                             </div>
-                            <a href="#" class="btn-view-details">View Details</a>
+                            <a href="pages\property-details.php" class="btn btn-outline-dark">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -290,11 +282,7 @@
 
     </div>
 </section>
-<!-- /FEATURED PROPERTIES -->
 
-<!-- ============================================================
-     FOOTER
-     ============================================================ -->
 <footer class="footer">
     <div class="container">
         <p>&copy; <?php echo date('Y'); ?> CRIB. All rights reserved.</p>
