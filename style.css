@@ -92,3 +92,18 @@ body{
     background:#f5f5f5;
     text-align:center;
 }
+.filter-box{
+    border:1px solid #ddd;
+    padding:20px;
+    border-radius:10px;
+    background:white;
+}
+
+.pagination .page-link{
+    color:black;
+}
+
+.pagination .active .page-link{
+    background:black;
+    border-color:black;
+}
